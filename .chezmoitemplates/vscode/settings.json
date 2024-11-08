@@ -1,6 +1,6 @@
 {
   "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -9,69 +9,332 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features",
-    // "editor.foldingImportsByDefault": true
-  },
-  "cSpell.language": "en,fr",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-    // "source.organizeImports": "explicit"
-  },
-  // "editor.formatOnSave": true,
-  "git.confirmSync": false,
-  "git.enableSmartCommit": true,
-  "html.format.wrapLineLength": 150,
-  "npm.keybindingsChangedWarningShown": true,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "typescript.validate.enable": false,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "cSpell.userWords": [
-    "appp",
-    "nindent",
-    "Svalinn"
-  ],
-  "files.eol": "\n",
-  "files.insertFinalNewline": true,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "shellformat.effectLanguages": [
-    "shellscript",
-    "dockerfile",
-    "dotenv",
-    "hosts",
-    "jvmoptions",
-    "ignore",
-    "gitignore",
-    "properties",
-    "spring-boot-properties",
-    "azcli",
-    "bats"
-  ],
-  "win-ca.inject": "append",
-  "diffEditor.ignoreTrimWhitespace": false,
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "i18nJsonEditor.forceKeyUPPERCASE": false,
-  "git.autofetch": true,
-  "scm.showOutgoingChanges": "never",
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.wordWrap": "off"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
   "[xml]": {
     "editor.defaultFormatter": "mikeburgh.xml-format"
   },
-  "scm.showIncomingChanges": "never",
-  "workbench.startupEditor": "none",
-  "github.copilot.editor.enableAutoCompletions": true,
-  "javascript.format.semicolons": "remove",
-  "typescript.format.semicolons": "remove",
-  "typescriptHero.imports.insertSemicolons": false, 
-  "typescript.preferences.quoteStyle": "single",
-  "javascript.preferences.quoteStyle": "single",
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  "breadcrumbs.enabled": true,
+  "cSpell.language": "en,en-US,fr,fr-FR",
+  "colorize.languages": [
+    "css",
+    "html",
+    "javascript",
+    "json",
+    "markdown",
+    "php",
+    "scss",
+    "typescript",
+    "vue"
+  ],
+  "console-ninja.featureSet": "Community",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
   },
-  "diffEditor.hideUnchangedRegions.enabled": true
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.maxColumn": 300,
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "eslint.validate": [
+    "html",
+    "vue",
+    "javascript",
+    "javascriptreact",
+    "typescript"
+  ],
+  "explorer.autoReveal": "focusNoScroll",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmPasteNative": false,
+  "explorer.expandSingleFolderWorkspaces": false,
+  "explorer.fileNesting.enabled": false,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.enable": {
+    "*": true,
+    "csv": false,
+    "jsonc": true,
+    "markdown": true,
+    "plaintext": false,
+    "yaml": true
+  },
+  "githubPullRequests.pullBranch": "never",
+  "headwind.classRegex": {
+    "css": "\\B@apply\\s+([_a-zA-Z0-9\\s\\-\\:\\/]+);",
+    "html": "\\bclass\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\']",
+    "javascript": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
+    "typescript": "\\bclassName\\s\\+?=\\s[`']([^`']+)[`']|class=\\\"([^\"]+)|dom\\([^,]+,\\s['`]([^'`]*)|div\\(['`]([^'`]*)|icon\\(['`]([^'`]*)|link\\(['`]([^'`]*)|text\\(['`]([^'`]*)|strong\\(['`]([^'`]*)|bold\\(['`]([^'`]*)|em\\(['`]([^'`]*)|italic\\(['`]([^'`]*)|small\\(['`]([^'`]*)|\\bp\\(['`]([^'`]*)|image\\(['`]([^'`]*)|img\\(['`]([^'`]*)|\\ba\\(['`]([^'`]*)|add\\(['`]([^'`]*)|genClass\\([^,]+,[^\\]]+],\\s\\[['`]([^'`]*)"
+  },
+  "headwind.prependCustomClasses": true,
+  "headwind.runOnSave": true,
+  "i18n-ally.displayLanguage": "fr",
+  "i18n-ally.sourceLanguage": "fr",
+  "iconify.inplace": false,
+  "importCost.bundleSizeDecoration": "minified",
+  "importCost.mediumPackageSize": 10,
+  "importCost.smallPackageSize": 5,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "javascript.format.semicolons": "remove",
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "json.format.enable": true,
+  "markdown.extension.toc.levels": "1..3",
+  "npm.autoDetect": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "stylelint.config": {
+    "rules": {
+      "at-rule-empty-line-before": [
+        "always",
+        {
+          "except": [
+            "blockless-after-same-name-blockless",
+            "first-nested"
+          ],
+          "ignore": [
+            "after-comment"
+          ]
+        }
+      ],
+      "at-rule-name-case": "lower",
+      "at-rule-name-space-after": "always-single-line",
+      "at-rule-no-unknown": true,
+      "at-rule-semicolon-newline-after": "always",
+      "block-closing-brace-empty-line-before": "never",
+      "block-closing-brace-newline-after": "always",
+      "block-closing-brace-newline-before": "always-multi-line",
+      "block-closing-brace-space-before": "always-single-line",
+      "block-no-empty": true,
+      "block-opening-brace-newline-after": "always-multi-line",
+      "block-opening-brace-space-after": "always-single-line",
+      "block-opening-brace-space-before": "always",
+      "color-hex-case": "lower",
+      "color-hex-length": "short",
+      "color-no-invalid-hex": true,
+      "comment-empty-line-before": [
+        "always",
+        {
+          "except": [
+            "first-nested"
+          ],
+          "ignore": [
+            "stylelint-commands"
+          ]
+        }
+      ],
+      "comment-no-empty": true,
+      "comment-whitespace-inside": "always",
+      "declaration-bang-space-after": "never",
+      "declaration-bang-space-before": "always",
+      "declaration-block-no-duplicate-properties": [
+        true,
+        {
+          "ignore": [
+            "consecutive-duplicates-with-different-values"
+          ]
+        }
+      ],
+      "declaration-block-no-shorthand-property-overrides": true,
+      "declaration-block-semicolon-newline-after": "always-multi-line",
+      "declaration-block-semicolon-space-after": "always-single-line",
+      "declaration-block-semicolon-space-before": "never",
+      "declaration-block-single-line-max-declarations": 1,
+      "declaration-block-trailing-semicolon": "always",
+      "declaration-colon-newline-after": "always-multi-line",
+      "declaration-colon-space-after": "always-single-line",
+      "declaration-colon-space-before": "never",
+      "font-family-no-duplicate-names": true,
+      "font-family-no-missing-generic-family-keyword": true,
+      "function-calc-no-unspaced-operator": true,
+      "function-comma-newline-after": "always-multi-line",
+      "function-comma-space-after": "always-single-line",
+      "function-comma-space-before": "never",
+      "function-linear-gradient-no-nonstandard-direction": true,
+      "function-max-empty-lines": 0,
+      "function-name-case": "lower",
+      "function-parentheses-newline-inside": "always-multi-line",
+      "function-parentheses-space-inside": "never-single-line",
+      "function-whitespace-after": "always",
+      "indentation": 2,
+      "keyframe-declaration-no-important": true,
+      "length-zero-no-unit": true,
+      "max-empty-lines": 1,
+      "media-feature-colon-space-after": "always",
+      "media-feature-colon-space-before": "never",
+      "media-feature-name-case": "lower",
+      "media-feature-name-no-unknown": true,
+      "media-feature-parentheses-space-inside": "never",
+      "media-feature-range-operator-space-after": "always",
+      "media-feature-range-operator-space-before": "always",
+      "media-query-list-comma-newline-after": "always-multi-line",
+      "media-query-list-comma-space-after": "always-single-line",
+      "media-query-list-comma-space-before": "never",
+      "no-descending-specificity": true,
+      "no-duplicate-at-import-rules": true,
+      "no-duplicate-selectors": true,
+      "no-empty-source": true,
+      "no-eol-whitespace": true,
+      "no-extra-semicolons": true,
+      "no-invalid-double-slash-comments": true,
+      "number-no-trailing-zeros": true,
+      "property-case": "lower",
+      "property-no-unknown": true,
+      "rule-empty-line-before": [
+        "always-multi-line",
+        {
+          "except": [
+            "first-nested"
+          ],
+          "ignore": [
+            "after-comment"
+          ]
+        }
+      ],
+      "selector-attribute-brackets-space-inside": "never",
+      "selector-attribute-operator-space-after": "never",
+      "selector-attribute-operator-space-before": "never",
+      "selector-combinator-space-after": "always",
+      "selector-combinator-space-before": "always",
+      "selector-descendant-combinator-no-non-space": true,
+      "selector-list-comma-space-before": "never",
+      "selector-max-empty-lines": 0,
+      "selector-pseudo-class-case": "lower",
+      "selector-pseudo-class-no-unknown": true,
+      "selector-pseudo-class-parentheses-space-inside": "never",
+      "selector-pseudo-element-case": "lower",
+      "selector-pseudo-element-colon-notation": "double",
+      "selector-pseudo-element-no-unknown": [
+        true,
+        {
+          "ignorePseudoElements": [
+            "ng-deep"
+          ]
+        }
+      ],
+      "selector-type-case": "lower",
+      "string-no-newline": true,
+      "unit-case": "lower",
+      "unit-no-unknown": true,
+      "value-keyword-case": "lower",
+      "value-list-comma-newline-after": "always-multi-line",
+      "value-list-comma-space-after": "always-single-line",
+      "value-list-comma-space-before": "never",
+      "value-list-max-empty-lines": 0
+    }
+  },
+  "stylelint.reportInvalidScopeDisables": true,
+  "stylelint.reportNeedlessDisables": true,
+  "tailwindCSS.experimental.classRegex": [
+    " +[a-z_]+: '([^']*)',",
+    "tw`([^`]*)",
+    "cn\\(['`]([^'`]*)",
+    "className\\s=\\s['`]([^'`]*)",
+    "dom\\([^\\s]+\\s['`]([^'`]*)",
+    "div\\(['`]([^'`]*)",
+    "img\\(['`]([^'`]*)",
+    "image\\(['`]([^'`]*)",
+    "a\\(['`]([^'`]*)",
+    "link\\(['`]([^'`]*)",
+    "p\\(['`]([^'`]*)",
+    "text\\(['`]([^'`]*)",
+    "strong\\(['`]([^'`]*)",
+    "bold\\(['`]([^'`]*)",
+    "em\\(['`]([^'`]*)",
+    "italic\\(['`]([^'`]*)",
+    "small\\(['`]([^'`]*)",
+    "tw\\(['`]([^'`]*)",
+    "utils\\.tw\\(['`]([^'`]*)",
+    "h\\d\\(['`]([^'`]*)"
+  ],
+  "tailwindCSS.files.exclude": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/.hg/**",
+    "**/.svn/**",
+    "**/pnpm-lock.yaml"
+  ],
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 3,
+  "terminal.integrated.defaultProfile.windows": "Nushell",
+  "terminal.integrated.enableMultiLinePasteWarning": true,
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "path": "C:\\Windows\\System32\\cmd.exe"
+    },
+    "GitBash": {
+      "args": [
+        "--login"
+      ],
+      "path": "C:\\Users\\Guill\\Documents\\apps\\Git\\bin\\bash.exe"
+    },
+    "Nushell": {
+      "path": "C:\\Users\\Guill\\scoop\\shims\\nu.exe"
+    },
+    "PowerShell": null
+  },
+  "totalTypeScript.hideAllTips": true,
+  "totalTypeScript.hideBasicTips": true,
+  "typescript.format.semicolons": "remove",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.titleBarStyle": "custom",
+  "workbench.editorAssociations": {
+    "*.csv": "default",
+    "*.md": "default"
+  },
+  "workbench.colorCustomizations": {
+    "terminal.ansiBlack": "#282a36",
+    "terminal.ansiBlue": "#57c7ff",
+    "terminal.ansiBrightBlack": "#686868",
+    "terminal.ansiBrightBlue": "#57c7ff",
+    "terminal.ansiBrightCyan": "#9aedfe",
+    "terminal.ansiBrightGreen": "#5af78e",
+    "terminal.ansiBrightMagenta": "#ff6ac1",
+    "terminal.ansiBrightRed": "#ff5c57",
+    "terminal.ansiBrightWhite": "#eff0eb",
+    "terminal.ansiBrightYellow": "#f3f99d",
+    "terminal.ansiCyan": "#9aedfe",
+    "terminal.ansiGreen": "#5af78e",
+    "terminal.ansiMagenta": "#ff6ac1",
+    "terminal.ansiRed": "#ff5c57",
+    "terminal.ansiWhite": "#f1f1f0",
+    "terminal.ansiYellow": "#f3f99d",
+    "terminal.background": "#282a36",
+    "terminal.foreground": "#eff0eb",
+    "terminal.selectionBackground": "#97979b33",
+    "terminalCursor.background": "#282a36",
+    "terminalCursor.foreground": "#97979b"
   }
+}
