@@ -1,0 +1,22 @@
+export def --env set-proxy [] {
+  let pwd = (input --suppress-output "password:")
+  let url = $"http://usr:($pwd)@proxy" 
+  load-env { "http_proxy": $url, "https_proxy": $url, "HTTP_proxy": $url, "HTTPS_proxy": $url, "ftp_proxy": $url, "FTP_proxy": $url }
+  print "\n\nUsing proxy"
+}
+
+export def --env bw-connect [] {
+  let session = (bw login --raw) 
+  load-env { "BW_SESSION": $session }
+}
+
+export def --env bw-unlock [] {
+  let session = (bw unlock --raw) 
+  load-env { "BW_SESSION": $session }
+}
+
+export def scoop-export [] { 
+  scoop export | 
+  save -f `{{ .chezmoi.workingTree }}/scoop-export.json` | 
+  print `Exported scoop apps to {{ .chezmoi.workingTree }}/scoop-export.json` 
+}
