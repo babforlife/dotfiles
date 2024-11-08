@@ -1,0 +1,77 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    // "editor.foldingImportsByDefault": true
+  },
+  "cSpell.language": "en,fr",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    // "source.organizeImports": "explicit"
+  },
+  // "editor.formatOnSave": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "html.format.wrapLineLength": 150,
+  "npm.keybindingsChangedWarningShown": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "typescript.validate.enable": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "cSpell.userWords": [
+    "appp",
+    "nindent",
+    "Svalinn"
+  ],
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "shellformat.effectLanguages": [
+    "shellscript",
+    "dockerfile",
+    "dotenv",
+    "hosts",
+    "jvmoptions",
+    "ignore",
+    "gitignore",
+    "properties",
+    "spring-boot-properties",
+    "azcli",
+    "bats"
+  ],
+  "win-ca.inject": "append",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "i18nJsonEditor.forceKeyUPPERCASE": false,
+  "git.autofetch": true,
+  "scm.showOutgoingChanges": "never",
+  "[xml]": {
+    "editor.defaultFormatter": "mikeburgh.xml-format"
+  },
+  "scm.showIncomingChanges": "never",
+  "workbench.startupEditor": "none",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
+  "typescriptHero.imports.insertSemicolons": false, 
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.preferences.quoteStyle": "single",
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "diffEditor.hideUnchangedRegions.enabled": true
+  }
