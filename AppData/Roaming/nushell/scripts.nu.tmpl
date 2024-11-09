@@ -20,3 +20,9 @@ export def scoop-export [] {
   save -f `{{ .chezmoi.workingTree }}/scoop-export.json` | 
   print `Exported scoop apps to {{ .chezmoi.workingTree }}/scoop-export.json` 
 }
+
+export def code-export [] {
+  code --list-extensions |
+  save -f `{{ .chezmoi.workingTree }}/.chezmoitemplates/vscode/extensions.txt` |
+  print `Exported extension list to {{ .chezmoi.workingTree }}/.chezmoitemplates/vscode/extensions.txt`
+}
