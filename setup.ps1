@@ -30,8 +30,9 @@ $editorPath = "$HOME\scoop\shims\nvim.exe"
 [Environment]::SetEnvironmentVariable("EDITOR", $editorPath, [EnvironmentVariableTarget]::User)
 
 # Clone Nushell scripts
-$nuConfigPath = "$HOME\.config\"
-if (-not (Test-Path -Path $nuConfigPath)) {
-    New-Item -ItemType Directory -Path $nuConfigPath | Out-Null
+$configPath = "$HOME\.config\"
+if (-not (Test-Path -Path $configPath)) {
+    New-Item -ItemType Directory -Path $configPath | Out-Null
 }
-git clone https://github.com/nushell/nu_scripts.git "$nuConfigPath\nu_scripts"
+git clone https://github.com/nushell/nu_scripts.git "$configPath\nu_scripts"
+git clone https://github.com/OneDeadKey/arsenik.git "$configPath\arsenik"

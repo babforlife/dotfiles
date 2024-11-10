@@ -26,3 +26,7 @@ export def code-export [] {
   save -f `{{ .chezmoi.workingTree }}/.chezmoitemplates/vscode/extensions.txt` |
   print `Exported extension list to {{ .chezmoi.workingTree }}/.chezmoitemplates/vscode/extensions.txt`
 }
+
+export def kanata-start [] {
+  kanata --cfg ~/.config/arsenik/kanata/kanata.kbd
+}

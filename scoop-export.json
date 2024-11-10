@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1731083589000)\/",
+                "value": "\/Date(1731270387000)\/",
                 "DisplayHint": 2,
-                "DateTime": "vendredi 8 novembre 2024 17:33:09"
+                "DateTime": "dimanche 10 novembre 2024 21:26:27"
             },
             "Manifests": 1347
         },
@@ -14,11 +14,11 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1731083770000)\/",
+                "value": "\/Date(1731270553000)\/",
                 "DisplayHint": 2,
-                "DateTime": "vendredi 8 novembre 2024 17:36:10"
+                "DateTime": "dimanche 10 novembre 2024 21:29:13"
             },
-            "Manifests": 2095
+            "Manifests": 2096
         }
     ],
     "apps": [
@@ -49,6 +49,13 @@
             "Name": "chezmoi",
             "Version": "2.53.1",
             "Updated": "\/Date(1731084699722)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "kanata",
+            "Version": "1.7.0",
+            "Updated": "\/Date(1731276052480)\/"
         },
         {
             "Info": "",
