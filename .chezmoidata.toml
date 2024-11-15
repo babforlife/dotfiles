@@ -1,3 +1,6 @@
+configPath = "~/.config"
 email = "guillaume.malek@outlook.fr"
 name = "Guillaume Malek"
-configPath = "~/.config"
+user = "Guill"
+proxyUsername = ""
+proxyHost = ""
