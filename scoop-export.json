@@ -52,13 +52,6 @@
         },
         {
             "Info": "",
-            "Source": "extras",
-            "Name": "kanata",
-            "Version": "1.7.0",
-            "Updated": "\/Date(1731276052480)\/"
-        },
-        {
-            "Info": "",
             "Source": "main",
             "Name": "neovim",
             "Version": "0.10.2",

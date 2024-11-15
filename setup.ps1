@@ -35,4 +35,3 @@ if (-not (Test-Path -Path $configPath)) {
     New-Item -ItemType Directory -Path $configPath | Out-Null
 }
 git clone https://github.com/nushell/nu_scripts.git "$configPath\nu_scripts"
-git clone https://github.com/OneDeadKey/arsenik.git "$configPath\arsenik"
