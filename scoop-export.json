@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1731270387000)\/",
+                "value": "\/Date(1731860953000)\/",
                 "DisplayHint": 2,
-                "DateTime": "dimanche 10 novembre 2024 21:26:27"
+                "DateTime": "dimanche 17 novembre 2024 17:29:13"
             },
             "Manifests": 1347
         },
@@ -14,11 +14,21 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1731270553000)\/",
+                "value": "\/Date(1731861130000)\/",
                 "DisplayHint": 2,
-                "DateTime": "dimanche 10 novembre 2024 21:29:13"
+                "DateTime": "dimanche 17 novembre 2024 17:32:10"
             },
-            "Manifests": 2096
+            "Manifests": 2099
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": {
+                "value": "\/Date(1731871084000)\/",
+                "DisplayHint": 2,
+                "DateTime": "dimanche 17 novembre 2024 20:18:04"
+            },
+            "Manifests": 342
         }
     ],
     "apps": [
@@ -33,22 +43,36 @@
             "Info": "",
             "Source": "main",
             "Name": "bitwarden-cli",
-            "Version": "2024.10.0",
-            "Updated": "\/Date(1731093213431)\/"
+            "Version": "2024.11.0",
+            "Updated": "\/Date(1731696766868)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "bulk-crap-uninstaller",
-            "Version": "5.8.1",
-            "Updated": "\/Date(1731095808041)\/"
+            "Version": "5.8.2",
+            "Updated": "\/Date(1731696774862)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "chezmoi",
-            "Version": "2.53.1",
-            "Updated": "\/Date(1731084699722)\/"
+            "Version": "2.54.0",
+            "Updated": "\/Date(1731696776935)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "fzf",
+            "Version": "0.56.3",
+            "Updated": "\/Date(1731873802749)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "git",
+            "Version": "2.47.0.2",
+            "Updated": "\/Date(1731866847908)\/"
         },
         {
             "Info": "",
@@ -59,17 +83,24 @@
         },
         {
             "Info": "",
+            "Source": "nerd-fonts",
+            "Name": "NerdFontsSymbolsOnly",
+            "Version": "3.2.1",
+            "Updated": "\/Date(1731874721915)\/"
+        },
+        {
+            "Info": "",
             "Source": "main",
             "Name": "nu",
-            "Version": "0.99.1",
-            "Updated": "\/Date(1730812646549)\/"
+            "Version": "0.100.0",
+            "Updated": "\/Date(1731696857447)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "picpick",
-            "Version": "7.2.8",
-            "Updated": "\/Date(1731096404839)\/"
+            "Version": "7.2.9",
+            "Updated": "\/Date(1731696783045)\/"
         },
         {
             "Info": "",
@@ -82,8 +113,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "vscode",
-            "Version": "1.95.2",
-            "Updated": "\/Date(1731096467257)\/"
+            "Version": "1.95.3",
+            "Updated": "\/Date(1731696874676)\/"
         },
         {
             "Info": "",
@@ -91,6 +122,20 @@
             "Name": "windows-terminal",
             "Version": "1.21.2911.0",
             "Updated": "\/Date(1731093464604)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "yazi",
+            "Version": "0.3.3",
+            "Updated": "\/Date(1731866713506)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "zoxide",
+            "Version": "0.9.6",
+            "Updated": "\/Date(1731871996458)\/"
         }
     ]
 }
