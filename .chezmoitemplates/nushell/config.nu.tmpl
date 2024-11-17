@@ -898,18 +898,11 @@ $env.config = {
     ]
 }
 
-# Aliases
-alias set-proxy = scripts set-proxy
-alias bw-connect = scripts bw-connect
-alias scoop-export = scripts scoop-export
-alias code-ext-export = scripts code-export
-alias kanata-start = scripts kanata-start
-
 # Sources
 source $"($nu.data-dir)/scripts.nu"
+source {{ .configPath }}/zoxide/init.nu
 source {{ .configPath }}/nu_scripts/custom-completions/bitwarden-cli/bitwarden-cli-completions.nu
 source {{ .configPath }}/nu_scripts/custom-completions/git/git-completions.nu
 source {{ .configPath }}/nu_scripts/custom-completions/npm/npm-completions.nu
 source {{ .configPath }}/nu_scripts/custom-completions/pnpm/pnpm-completions.nu
 source {{ .configPath }}/nu_scripts/custom-completions/scoop/scoop-completions.nu
-
