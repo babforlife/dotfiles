@@ -4,31 +4,31 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1731860953000)\/",
+                "value": "\/Date(1732033836000)\/",
                 "DisplayHint": 2,
-                "DateTime": "dimanche 17 novembre 2024 17:29:13"
+                "DateTime": "mardi 19 novembre 2024 17:30:36"
             },
-            "Manifests": 1347
+            "Manifests": 1348
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1731861130000)\/",
+                "value": "\/Date(1732034198000)\/",
                 "DisplayHint": 2,
-                "DateTime": "dimanche 17 novembre 2024 17:32:10"
+                "DateTime": "mardi 19 novembre 2024 17:36:38"
             },
-            "Manifests": 2099
+            "Manifests": 2100
         },
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
             "Updated": {
-                "value": "\/Date(1731871084000)\/",
+                "value": "\/Date(1731968464000)\/",
                 "DisplayHint": 2,
-                "DateTime": "dimanche 17 novembre 2024 20:18:04"
+                "DateTime": "lundi 18 novembre 2024 23:21:04"
             },
-            "Manifests": 342
+            "Manifests": 345
         }
     ],
     "apps": [
@@ -76,17 +76,24 @@
         },
         {
             "Info": "",
+            "Source": "nerd-fonts",
+            "Name": "Hack-NF",
+            "Version": "3.3.0",
+            "Updated": "\/Date(1731951767333)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "innounp",
+            "Version": "1.76",
+            "Updated": "\/Date(1731954581529)\/"
+        },
+        {
+            "Info": "",
             "Source": "main",
             "Name": "neovim",
             "Version": "0.10.2",
             "Updated": "\/Date(1731085029117)\/"
-        },
-        {
-            "Info": "",
-            "Source": "nerd-fonts",
-            "Name": "NerdFontsSymbolsOnly",
-            "Version": "3.2.1",
-            "Updated": "\/Date(1731874721915)\/"
         },
         {
             "Info": "",
@@ -108,6 +115,13 @@
             "Name": "rapidee",
             "Version": "9.2.937",
             "Updated": "\/Date(1731089384109)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "starship",
+            "Version": "1.21.1",
+            "Updated": "\/Date(1732039523582)\/"
         },
         {
             "Info": "",
