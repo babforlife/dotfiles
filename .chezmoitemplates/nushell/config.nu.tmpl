@@ -900,6 +900,7 @@ $env.config = {
 
 # Sources
 source $"($nu.data-dir)/scripts.nu"
+use {{ .configPath }}/starship/init.nu
 source {{ .configPath }}/zoxide/init.nu
 source {{ .configPath }}/nu_scripts/custom-completions/bitwarden-cli/bitwarden-cli-completions.nu
 source {{ .configPath }}/nu_scripts/custom-completions/git/git-completions.nu
