@@ -28,6 +28,9 @@ if (Test-Path "./scoop-export.json") {
 # Set up Neovim as the default editor in environment variable
 $editorPath = "$HOME\scoop\shims\nvim.exe"
 [Environment]::SetEnvironmentVariable("EDITOR", $editorPath, [EnvironmentVariableTarget]::User)
+# Set up Yazi FILE path environment variable
+$yaziFileOnePath = "$HOME\scoop\apps\git\current\usr\bin\file.exe"
+[Environment]::SetEnvironmentVariable("YAZI_FILE_ONE", $yaziFileOnePath, [EnvironmentVariableTarget]::User)
 
 # Clone Nushell scripts
 $configPath = "$HOME\.config\"
