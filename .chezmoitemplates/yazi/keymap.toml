@@ -1,0 +1,8 @@
+[[manager.prepend_keymap]]
+on  = "C"
+run = 'shell "code ." --confirm'
+
+[[input.prepend_keymap]]
+on   = "<Esc>"
+run  = "close"
+desc = "Cancel input"
