@@ -2,33 +2,43 @@
     "buckets": [
         {
             "Name": "main",
-            "Source": "https://github.com/ScoopInstaller/Main",
+            "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1733214673000)\/",
+                "value": "\/Date(1738038595000)\/",
                 "DisplayHint": 2,
-                "DateTime": "mardi 3 d�cembre 2024 09:31:13"
+                "DateTime": "mardi 28 janvier 2025 05:29:55"
             },
-            "Manifests": 1348
+            "Manifests": 1356
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1733214787000)\/",
+                "value": "\/Date(1738053136000)\/",
                 "DisplayHint": 2,
-                "DateTime": "mardi 3 d�cembre 2024 09:33:07"
+                "DateTime": "mardi 28 janvier 2025 09:32:16"
             },
-            "Manifests": 2103
+            "Manifests": 2122
         },
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
             "Updated": {
-                "value": "\/Date(1732724961000)\/",
+                "value": "\/Date(1737710534000)\/",
                 "DisplayHint": 2,
-                "DateTime": "mercredi 27 novembre 2024 17:29:21"
+                "DateTime": "vendredi 24 janvier 2025 10:22:14"
             },
             "Manifests": 345
+        },
+        {
+            "Name": "games",
+            "Source": "https://github.com/Calinou/scoop-games",
+            "Updated": {
+                "value": "\/Date(1738067453000)\/",
+                "DisplayHint": 2,
+                "DateTime": "mardi 28 janvier 2025 13:30:53"
+            },
+            "Manifests": 338
         }
     ],
     "apps": [
@@ -37,28 +47,28 @@
             "Source": "main",
             "Name": "7zip",
             "Version": "24.09",
-            "Updated": "\/Date(1733216059245)\/"
+            "Updated": "\/Date(1738067543880)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "bitwarden-cli",
-            "Version": "2024.11.1",
-            "Updated": "\/Date(1733216069706)\/"
+            "Version": "2025.1.2",
+            "Updated": "\/Date(1738067546546)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "bulk-crap-uninstaller",
             "Version": "5.8.2",
-            "Updated": "\/Date(1731923350082)\/"
+            "Updated": "\/Date(1731696774862)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "chezmoi",
-            "Version": "2.55.0",
-            "Updated": "\/Date(1733216076878)\/"
+            "Version": "2.59.0",
+            "Updated": "\/Date(1738067548835)\/"
         },
         {
             "Info": "",
@@ -71,99 +81,99 @@
             "Info": "",
             "Source": "main",
             "Name": "fzf",
-            "Version": "0.56.3",
-            "Updated": "\/Date(1731923411126)\/"
+            "Version": "0.58.0",
+            "Updated": "\/Date(1738067550766)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "git",
-            "Version": "2.47.1",
-            "Updated": "\/Date(1733216289004)\/"
+            "Version": "2.47.1.2",
+            "Updated": "\/Date(1738067559368)\/"
         },
         {
             "Info": "",
             "Source": "nerd-fonts",
             "Name": "Hack-NF",
             "Version": "3.3.0",
-            "Updated": "\/Date(1733216340206)\/"
+            "Updated": "\/Date(1731951767333)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "innounp",
-            "Version": "1.76",
-            "Updated": "\/Date(1731404428938)\/"
+            "Version": "2.64",
+            "Updated": "\/Date(1738067560698)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "neovim",
-            "Version": "0.10.2",
-            "Updated": "\/Date(1730991516173)\/"
+            "Version": "0.10.3",
+            "Updated": "\/Date(1738067568691)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "nu",
-            "Version": "0.100.0",
-            "Updated": "\/Date(1731668590996)\/"
+            "Version": "0.101.0",
+            "Updated": "\/Date(1738067771715)\/"
         },
         {
             "Info": "",
-            "Source": "main",
-            "Name": "oh-my-posh",
-            "Version": "24.11.4",
-            "Updated": "\/Date(1733217039439)\/"
+            "Source": "games",
+            "Name": "osulazer",
+            "Version": "2025.118.3",
+            "Updated": "\/Date(1738067577455)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "picpick",
             "Version": "7.2.9",
-            "Updated": "\/Date(1733216603402)\/"
+            "Updated": "\/Date(1731696783045)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "rapidee",
             "Version": "9.2.937",
-            "Updated": "\/Date(1731061626585)\/"
+            "Updated": "\/Date(1731089384109)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "starship",
-            "Version": "1.21.1",
-            "Updated": "\/Date(1732098499407)\/"
+            "Version": "1.22.1",
+            "Updated": "\/Date(1738067578996)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "vscode",
-            "Version": "1.95.3",
-            "Updated": "\/Date(1731676105817)\/"
+            "Version": "1.96.4",
+            "Updated": "\/Date(1738067586719)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "windows-terminal",
             "Version": "1.21.3231.0",
-            "Updated": "\/Date(1733216397756)\/"
+            "Updated": "\/Date(1738067589095)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "yazi",
-            "Version": "0.3.3",
-            "Updated": "\/Date(1731923756649)\/"
+            "Version": "0.4.2",
+            "Updated": "\/Date(1738067591199)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "zoxide",
             "Version": "0.9.6",
-            "Updated": "\/Date(1731923788224)\/"
+            "Updated": "\/Date(1731871996458)\/"
         }
     ]
 }
