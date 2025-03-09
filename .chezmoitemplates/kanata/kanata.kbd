@@ -72,11 +72,11 @@
 ;; Aliases for `Symbols` and `Navigation` layers
 ;; Depends on PC/Mac and keyboard layout
 
-;; (include defalias/ergol_pc.kbd)  ;; Ergo‑L PC
+(include defalias/ergol_pc.kbd)  ;; Ergo‑L PC
 ;; (include defalias/qwerty-lafayette_pc.kbd)  ;; Qwerty‑Lafayette PC
 ;; (include defalias/qwerty_pc.kbd)  ;; Qwerty / Colemak PC
 ;; (include defalias/qwerty_mac.kbd)  ;; Qwerty / Colemak Mac
-(include defalias/azerty_pc.kbd)  ;; Azerty PC
+;; (include defalias/azerty_pc.kbd)  ;; Azerty PC
 ;; (include defalias/qwertz_pc.kbd)  ;; Qwertz PC
 ;; (include defalias/bepo_pc.kbd)  ;; Bépo PC
 ;; (include defalias/optimot_pc.kbd)  ;; Optimot PC
