@@ -1,10 +1,8 @@
 [
-    {
-        "key": "alt+e",
-        "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus",
-        "args": {
-            "snippet": "console.log(${TM_SELECTED_TEXT}$1)$2"
-        }
-    }
+    { "key": "alt+e",       "command": "editor.action.insertSnippet", 
+                            "when": "editorTextFocus", 
+                            "args": { "snippet": "console.log(${TM_SELECTED_TEXT}$1)$2" } },
+    { "key": "ctrl+oem_5",  "command": "editor.action.commentLine",
+                            "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+oem_2",  "command": "workbench.action.splitEditor" },
 ]
