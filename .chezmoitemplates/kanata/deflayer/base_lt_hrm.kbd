@@ -20,12 +20,12 @@
   sym (tap-hold-press $tap_timeout $hold_timeout ret (layer-while-held symbols))
 
   ;; Home-row mods
-  ss (tap-hold $tap_timeout $long_hold_timeout s (layer-while-held symbols))
+  ss (tap-hold $tap_timeout $long_hold_timeout s lmet)
   dd (tap-hold $tap_timeout $long_hold_timeout d lctl)
   ff (tap-hold $tap_timeout $long_hold_timeout f lalt)
   jj (tap-hold $tap_timeout $long_hold_timeout j lalt)
   kk (tap-hold $tap_timeout $long_hold_timeout k rctl)
-  ll (tap-hold $tap_timeout $long_hold_timeout l (layer-while-held symbols))
+  ll (tap-hold $tap_timeout $long_hold_timeout l rmet)
 )
 
 ;; vim: set ft=lisp
