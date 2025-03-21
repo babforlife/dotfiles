@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1741955549000)\/",
+                "value": "\/Date(1742560292000)\/",
                 "DisplayHint": 2,
-                "DateTime": "vendredi 14 mars 2025 13:32:29"
+                "DateTime": "vendredi 21 mars 2025 13:31:32"
             },
             "Manifests": 1387
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1741955427000)\/",
+                "value": "\/Date(1742560247000)\/",
                 "DisplayHint": 2,
-                "DateTime": "vendredi 14 mars 2025 13:30:27"
+                "DateTime": "vendredi 21 mars 2025 13:30:47"
             },
-            "Manifests": 2142
+            "Manifests": 2144
         },
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
             "Updated": {
-                "value": "\/Date(1741407668000)\/",
+                "value": "\/Date(1742435205000)\/",
                 "DisplayHint": 2,
-                "DateTime": "samedi 8 mars 2025 05:21:08"
+                "DateTime": "jeudi 20 mars 2025 02:46:45"
             },
             "Manifests": 360
         },
@@ -34,9 +34,9 @@
             "Name": "games",
             "Source": "https://github.com/Calinou/scoop-games",
             "Updated": {
-                "value": "\/Date(1741955555000)\/",
+                "value": "\/Date(1742560286000)\/",
                 "DisplayHint": 2,
-                "DateTime": "vendredi 14 mars 2025 13:32:35"
+                "DateTime": "vendredi 21 mars 2025 13:31:26"
             },
             "Manifests": 340
         }
@@ -109,8 +109,15 @@
             "Info": "",
             "Source": "main",
             "Name": "git",
-            "Version": "2.48.1",
-            "Updated": "\/Date(1739797826080)\/"
+            "Version": "2.49.0",
+            "Updated": "\/Date(1742568150910)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "glazewm",
+            "Version": "3.8.1",
+            "Updated": "\/Date(1742467324718)\/"
         },
         {
             "Info": "",
@@ -123,15 +130,8 @@
             "Info": "",
             "Source": "main",
             "Name": "innounp",
-            "Version": "2.64.2",
-            "Updated": "\/Date(1741962247236)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "mtn",
-            "Version": "3.5.0",
-            "Updated": "\/Date(1732142237507)\/"
+            "Version": "2.64.3",
+            "Updated": "\/Date(1742568422322)\/"
         },
         {
             "Info": "",
@@ -144,8 +144,8 @@
             "Info": "",
             "Source": "main",
             "Name": "nu",
-            "Version": "0.102.0",
-            "Updated": "\/Date(1739798106876)\/"
+            "Version": "0.103.0",
+            "Updated": "\/Date(1742569211477)\/"
         },
         {
             "Info": "",
@@ -153,13 +153,6 @@
             "Name": "obsidian",
             "Version": "1.8.9",
             "Updated": "\/Date(1741962431996)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "oh-my-posh",
-            "Version": "25.4.2",
-            "Updated": "\/Date(1741962259038)\/"
         },
         {
             "Info": "",
@@ -186,8 +179,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "screentogif",
-            "Version": "2.41.1",
-            "Updated": "\/Date(1734356276257)\/"
+            "Version": "2.41.2",
+            "Updated": "\/Date(1742569379438)\/"
         },
         {
             "Info": "",
@@ -200,15 +193,15 @@
             "Info": "",
             "Source": "extras",
             "Name": "vscode",
-            "Version": "1.97.2",
-            "Updated": "\/Date(1739798070834)\/"
+            "Version": "1.98.2",
+            "Updated": "\/Date(1742568587825)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "windows-terminal",
-            "Version": "1.22.10352.0",
-            "Updated": "\/Date(1739798128077)\/"
+            "Version": "1.22.10731.0",
+            "Updated": "\/Date(1742569256625)\/"
         },
         {
             "Info": "",
@@ -216,6 +209,13 @@
             "Name": "yazi",
             "Version": "25.3.2",
             "Updated": "\/Date(1741962355397)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "zebar",
+            "Version": "2.7.0",
+            "Updated": "\/Date(1742467461345)\/"
         },
         {
             "Info": "",
