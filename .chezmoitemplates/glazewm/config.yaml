@@ -48,7 +48,7 @@ gaps:
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: '0px'
+    top: '60px'
     right: '20px'
     bottom: '20px'
     left: '20px'
@@ -179,13 +179,13 @@ binding_modes:
 keybindings:
   # Shift focus in a given direction.
   - commands: ['focus --direction left']
-    bindings: ['alt+l', 'alt+left']
+    bindings: ['alt+l']
   - commands: ['focus --direction right']
-    bindings: ['alt+i', 'alt+right']
+    bindings: ['alt+i']
   - commands: ['focus --direction up']
-    bindings: ['alt+t', 'alt+up']
+    bindings: ['alt+t']
   - commands: ['focus --direction down']
-    bindings: ['alt+r', 'alt+down']
+    bindings: ['alt+r']
 
   # Move focused window in a given direction.
   - commands: ['move --direction left']
