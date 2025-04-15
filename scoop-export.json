@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1744648182000)\/",
+                "value": "\/Date(1744734622000)\/",
                 "DisplayHint": 2,
-                "DateTime": "lundi 14 avril 2025 18:29:42"
+                "DateTime": "mardi 15 avril 2025 18:30:22"
             },
             "Manifests": 1388
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1744653865000)\/",
+                "value": "\/Date(1744734722000)\/",
                 "DisplayHint": 2,
-                "DateTime": "lundi 14 avril 2025 20:04:25"
+                "DateTime": "mardi 15 avril 2025 18:32:02"
             },
             "Manifests": 2151
         },
@@ -34,9 +34,9 @@
             "Name": "games",
             "Source": "https://github.com/Calinou/scoop-games",
             "Updated": {
-                "value": "\/Date(1744648172000)\/",
+                "value": "\/Date(1744734587000)\/",
                 "DisplayHint": 2,
-                "DateTime": "lundi 14 avril 2025 18:29:32"
+                "DateTime": "mardi 15 avril 2025 18:29:47"
             },
             "Manifests": 344
         }
@@ -76,6 +76,13 @@
             "Name": "dark",
             "Version": "3.14",
             "Updated": "\/Date(1738687790796)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "espanso",
+            "Version": "2.2.3",
+            "Updated": "\/Date(1744742521720)\/"
         },
         {
             "Info": "",
