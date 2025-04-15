@@ -1,12 +1,12 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "beb586a"
-hash = "ae9e1d0c6bfd68cdebc98cc684c22b45"
+rev = "b12a9ab"
+hash = "61dbbf7c436f4745b2bccae31034da6d"
 
 [[plugin.deps]]
 use = "Rolv-Apneseth/starship"
-rev = "f6939fb"
-hash = "a25dd6fcb2faad0f8804c1193b1d0361"
+rev = "c070754"
+hash = "569bb233414c527b20920ebd1a7c109c"
 
 [flavor]
 deps = []
