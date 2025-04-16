@@ -2,6 +2,14 @@
 on  = "C"
 run = 'shell "code ." --confirm'
 
+[[manager.prepend_keymap]]
+on = "z"
+run = "plugin zoxide"
+
+[[manager.prepend_keymap]]
+on = "Z"
+run = "plugin fzf"
+
 [[input.prepend_keymap]]
 on   = "<Esc>"
 run  = "close"
