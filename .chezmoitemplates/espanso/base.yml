@@ -8,25 +8,94 @@
 # Matches are substitution rules: when you type the "trigger" string
 # it gets replaced by the "replace" string.
 matches:
-  # Simple text replacement
-  - trigger: ":espanso"
-    replace: "Hi there!"
+  # prénom, first name
+  - regex: ":(pr|fi)"
+    label: "Guillaume"
+    replace: "Guillaume"
+
+  # nom, last name
+  - regex: ":(no|la)"
+    label: "Malek"
+    replace: "Malek"
+
+  # name
+  - regex: ":(na)"
+    label: "Guillaume Malek"
+    replace: "Guillaume Malek"
+
+  # tva intracommunautaire
+  - regex: ":(tv)"
+    label: "FR67942722422"
+    replace: "FR67942722422"
+
+  # siret, Paris MAJ
+  - regex: ":(siret)"
+    label: "94272242200014"
+    replace: "94272242200014"
+
+  # siren
+  - regex: ":(siren)"
+    label: "942722422"
+    replace: "942722422"
+
+  # mail, email
+  - regex: ":(ma|em)"
+    label: "guillaume.malek98@gmail.com"
+    replace: "guillaume.malek98@gmail.com"
+
+  # mail pro, pro mail
+  - regex: ":(mp|pm)"
+    label: "guillaume.malek.pro@gmail.com"
+    replace: "guillaume.malek.pro@gmail.com"
+
+  # adresse, address
+  - regex: ":(adr|addr|address)"
+    label: "21 rue Christophe Thomas Walliser 67200 Strasbourg"
+    replace: "21 rue Christophe Thomas Walliser 67200 Strasbourg"
+
+  # ville, city
+  - regex: ":(vi|ci)"
+    label: "Strasbourg"
+    replace: "Strasbourg"
+
+  # code postal, postal code, zip code
+  - regex: ":(co|cp|zi|po)"
+    label: "67200"
+    replace: "67200"
+
+  # rue, street
+  - regex: ":(ru|stre)"
+    label: "21 rue Christophe Thomas Walliser"
+    replace: "21 rue Christophe Thomas Walliser"
+
+  # téléphone, phone
+  - regex: ":(tel|ph)"
+    label: "0787524370"
+    replace: "0787524370"
+
+  # thumbs up and down
+  - trigger: ":tu"
+    label: "👍"
+    replace: "👍"
+  - trigger: ":td"
+    label: "👎"
+    replace: "👎"
 
   # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
 
   # But matches can also be dynamic:
 
   # Print the current date
-  - trigger: ":date"
-    replace: "{{"{{mydate}}"}}"
+  - trigger: ":da"
+    replace: "{{"{{today}}"}}"
     vars:
-      - name: mydate
+      - name: today
         type: date
         params:
-          format: "%m/%d/%Y"
+          format: "%d/%m/%Y"
 
   # Print the output of a shell command
-  - trigger: ":shell"
+  - trigger: ":sh"
     replace: "{{"{{output}}"}}"
     vars:
       - name: output
